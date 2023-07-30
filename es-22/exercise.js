@@ -2,13 +2,11 @@ const password = 'Hi';
 const passwordLength = password.length;
 
 switch (passwordLength) {
-    case 1:
-    case 2:
-    case 3:
     case 4:
         console.log("Password length is correct");
         break;
-    default:
+    case 5:
+    case 6:
         console.log("Password not valid");
         break;
 }
